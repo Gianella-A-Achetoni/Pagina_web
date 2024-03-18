@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384- GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <title>Studio Ghibli</title>
+    <script defer src="./main.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Honk&display=swap" rel="stylesheet">
+</head>
+<body class="container-fluid">
+
+    <header>
+        <img src="./imagenes/logoooooo.png" alt="Logo de Studio Ghibli">
+        <nav>
+            <ul>
+                <a href="https://studioghiblimovies.com/"><li>HOME</li></a>
+                <a href="https://studioghiblimovies.com/category/studio-ghibli-movies-news/"><li>NOVEDADES</li></a>
+                <a href="#nosotros"><li>NOSOTROS</li></a>
+                <a href="#redes"><li>REDES</li></a>
+                <a href="#pelis"><li>PELICULAS</li></a>
+            </ul>
+        </nav>
+    </header>
+
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./imagenes/carrucel.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="./imagenes/carrusel2.png" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="./imagenes/carrucel3.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="./imagenes/carrucel4.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="./imagenes/carrucel5.jpg" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <br>
+      <br>
+
+    <div id="nosotros">
+        <h1>¿ Que es Studio Ghibli ?</h1>
+        <br>
+        <p>Studio Ghibli es un estudio de animación japonés fundado en 1985 por Hayao Miyazaki, Isao Takahata y Toshio Suzuki. Es considerado uno de los mejores estudios de animación en el mundo y ha producido una gran cantidad de largometrajes animados aclamados por la crítica que han obtenido numerosos premios e incluso algunas de sus entregas han sido nominadas a los Óscars.</p>
+        <div id="contenido"> <p>Desde su fundación, Studio Ghibli ha producido un total de 22 películas, cada una con su propia historia y estilo visual. Entre ellas se encuentran clásicos como Mi Vecino Totoro, El Castillo en el Cielo, La Princesa Mononoke y muchas más. Sin embargo, la película más famosa del estudio es El Viaje de Chihiro, la cual ganó el premio a la Mejor Película de Animación en los Premios de la Academia en 2008.</p></div>
+       <button onclick= 'muestra_oculta("contenido")' class="btn btn-primary" form="contenido">+</button>
+    </div>
+    <br>
+    <br>
+
+    <div class="creadores" >
+        <h1>FUNDADORES</h1>
+        <br>
+        <div class="container text-center ">
+            <div class="row">
+                <div class="col-md-4">
+                    <img src="./imagenes/hayao-miyazaki.jpg" alt="Hayao Miyazaki">
+                    <h2>Hayao Miyazaki</h2>
+                </div>
+                <div class="col-md-4">
+                    <img src="./imagenes/Iso_Takahata.jpg" alt="Iso Takahata">
+                    <h2>Iso Takahata</h2>
+                </div>
+                <div class="col-md-4">
+                    <img src="./imagenes/Toshio Suzuki.jpg" alt="Toshio Suzuki">
+                    <h2>Toshio Suzuki</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+    <br>
+
+
+    <div class="peliculas">
+        <h1>Todas sus peliculas</h1>
+    </div>
+    <br>
+    <br>
+
+    <div id="pelis" >
+        <div class="container text-center ">
+            <div class="row">
+                <div class="col-md-4">
+                    <img src="./imagenes/nausicaa-del-valle-del-viento.jpeg" alt="">
+                    <h1>Nausicaä del Valle del Viento (1984)</h1>
+                    <p>¿De qué va?: Mientras la vida en el mundo se encuentra amenazada por el Mar de Putrefacción, la joven Nausicaä deberá lidiar con las fuerzas que quieren hacerse con el Valle del Viento, uno de los pocos lugares todavía libres de este mal.</p>
+                </div>
+                <div class="col-md-4">
+                    <img src="./imagenes/el-castillo-en-el-cielo-sheeta-studio-ghibli.jpeg" alt="">
+                    <h1>El Castillo en el cielo (1986)</h1>
+                    <p>¿De qué va?: Sheeta y Pazu son perseguidos por dos fuerzas distintas: las tropas de Muska y los piratas de Dola. El objetivo de ambas es encontrar un castillo que, según las leyendas, flota en el cielo: Laputa (sí lo has leído bien).</p>
+                </div>
+                <div class="col-md-4">
+                    <img src="./imagenes/la-tumba-de-las-luciernagas-studio-ghibli-1220x661.jpeg.webp" alt="">
+                    <h1>La Tumba de las Luciérnagas (1988)</h1>
+                    <p>¿De qué va?: Los hermanos Seita y Setsuko luchan por sobrevivir durante la Segunda Guerra Mundial, y descubren de primera mano lo cruel que es el mundo en ese contexto.</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4"> 
+                    <img src="./imagenes/mi-vecino-totoro-studio-ghibli.jpeg.webp" alt="">
+                    <h1>Mi vecino Totoro (1988)</h1>
+                    <p>¿De qué va?: Las hermanas Mei y Satsuki se instalan con su padre en un nuevo hogar. Por la zona conocen a Totoro, un misterioso y divertido espíritu.</p>
+                </div>
+                <div class="col-md-4">
+                    <img src="./imagenes/nicky-la-aprendiz-de-bruja-studio-ghibli.jpeg.webp" alt="">
+                    <h1>Nicky, la aprendiz de bruja (1989)</h1>
+                    <p>¿De qué va?: La joven Nicky abandona el hogar de su familia para formarse como bruja. En esta aventura, tendrá que hacer frente a un montón de problemas, tanto externos como internos.</p>
+                </div>
+                <div class="col-md-4">
+                    <img src="./imagenes/recuerdos-del-ayer-studio-ghibli.jpeg.webp" alt="">
+                    <h1>Recuerdos del ayer (1991)</h1>
+                    <p>¿De qué va?: Taeko se toma unas vacaciones de su trabajo para ir a un pueblo a ayudar en el campo. De forma involuntaria, durante el viaje no paran de volverle recuerdos de su niñez.</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <img src="./imagenes/porco-rosso-studio-ghibli-1220x746.jpeg.webp" alt="">
+                    <h1>Porco Rosso (1992)</h1>
+                    <p>¿De qué va?: Un hombre-cerdo conocido como Porco vive en el Mar Adriático, y lo sobrevuela con su avioneta. Su pasión por la aviación le llevará a conocer tanto a amigos como a enemigos.</p>
+                </div>
+                <div class="col-md-4">
+                    <img src="./imagenes/puedo-escuchar-el-mar-studio-ghibli-1220x686.jpeg.webp" alt="">
+                    <h1>Puedo escuchar el mar (1993)</h1>
+                    <p>¿De qué va?: Morisaki es un estudiante que tiene una gran amistad con Matsuno. Un día, ambos conocen a una nueva estudiante, Rikako, que no les deja indiferentes.</p>
+                </div>
+                <div class="col-md-4">
+                    <img src="./imagenes/pompoko-studio-ghibli-1220x686.jpeg.webp" alt="">
+                    <h1>Pompoko (1994)</h1>
+                    <p>¿De qué va?: Los mapaches de una colina de Tama usan sus poderes para evitar que el descontrolado avance de los humanos destruya su hogar.</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <img src="./imagenes/susurros-del-corazon-studio-ghibli-1220x686.jpeg.webp" alt="">
+                    <h1>Susurros del Corazón (1995)</h1>
+                    <p>¿De qué va?: Shizuku no sabe muy bien qué quiere hacer cuando sea mayor. Al conocer a Seiji, que lo tiene muy claro, experimentará un gran crecimiento personal.</p>
+                </div>
+                <div class="col-md-4">
+                    <img src="./imagenes/la-princesa-mononoke-studio-ghibli-1220x686.jpeg.webp" alt="">
+                    <h1>La princesa Mononoke (1997)</h1>
+                    <p>¿De qué va?: Ashitaka vaga por el mundo y llega a la Ciudad del Hierro, que pretende crecer aún a costa de los recursos naturales de la zona. San y su familia de lobos no van a permitírselo.</p>
+                </div>
+                <div class="col-md-4">
+                    <img src="./imagenes/mis-vecinos-los-yamada-studio-ghibli-1220x686.jpg.webp" alt="">
+                    <h1>Mis vecinos Los Yamada (1999)</h1>
+                    <p>¿De qué va?: La película nos cuenta distintas historias de la familia Yamada, en las que sobresalen el enorme carisma de sus miembros y un gran sentido del humor.</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <img src="./imagenes/el-viaje-de-chihiro-studio-ghibli-1220x660.jpeg.webp" alt="">
+                    <h1>El viaje de Chihiro (2001)</h1>
+                    <p>¿De qué va?: La joven Chihiro llega por accidente a un balneario regentado y visitado por criaturas de lo más extrañas. Su objetivo es volver a su mundo y rescatar a sus padres, que han sido convertidos en cerdos</p>
+                </div>
+                <div class="col-md-4">
+                    <img src="./imagenes/el-castillo-ambulante-studio-ghibli-1220x655.jpeg.webp" alt="">
+                    <h1>El Castillo Ambulante (2004)</h1>
+                    <p>¿De qué va?: La joven Sophie es convertida en anciana por una malvada bruja. Esto la lleva hasta el mágico castillo de Howl, que se mueve gracias a una llama parlante.</p>
+                </div>
+                <div class="col-md-4">
+                    <img src="./imagenes/cuentos-de-terramar-studio-ghibli-1220x660.jpeg.webp" alt="">
+                    <h1>Cuentos de Terramar (2006)</h1>
+                    <p>¿De qué va?: El mago Gavilán conoce al joven Arren, y deciden viajar juntos. Ambos pasan una temporada en casa de Tenar y Therru, aunque la sombra del malvado Cob planea sobre ellos.</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <img src="./imagenes/ponyo-en-el-acantilado-studio-ghibli-1220x661.jpeg.webp" alt="">
+                    <h1>Ponyo en el acantilado (2008)</h1>
+                    <p>¿De qué va?: La niña-pez Ponyo conoce un día a Sosuke. Desde ese momento, deciden estar juntos, aunque el padre de la pececita intentará impedirlo</p>
+                </div>
+                <div class="col-md-4">
+                    <img src="./imagenes/haru-en-el-reino-de-los-gatos-studio-ghibli-1220x661.jpeg.webp" alt="">
+                    <h1>Haru en el reino de los gatos (2002)</h1>
+                    <p>¿De qué va?: Tras ayudar a un gato en la calle, Haru es recompensada por los felinos y llevada a su reino.</p>
+                </div>
+                <div class="col-md-4">
+                    <img src="./imagenes/la-colina-de-las-amapolas-studio-ghibli-1220x686.jpeg.webp" alt="">
+                    <h1>La colina de las amapolas (2011)</h1>
+                    <p>¿De qué va?: Historia protagonizada por los jóvenes Umi y Shun, cuyos vínculos se van estrechando a la vez que intentan que no se derribe el edificio de su instituto que alberga todos los clubs.</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <img src="./imagenes/el-viento-se-levanta-studio-ghibli-1220x686.jpeg.webp" alt="">
+                    <h1>El viento se levanta (2013)</h1>
+                    <p>¿De qué va?: La cinta nos cuenta la vida de Jiro Horikoshi, que pasó de ser un niño que soñaba con construir aviones a un adulto que trabaja en ello</p>
+                </div>
+                <div class="col-md-4">
+                    <img src="./imagenes/el-cuento-de-la-princesa-kaguya-studio-ghibli-1220x658.jpg.webp" alt="">
+                    <h1>El cuento de la princesa Kaguya (2013)</h1>
+                    <p>¿De qué va?: La pequeña Brote de Bambú vive feliz en un bosque junto a sus padres y amigos. Un día, gracias al mucho dinero que han conseguido, deciden trasladarse a la ciudad y la niña se convierte en la princesa Kaguya, algo a lo que la joven no termina de adaptarse. </p>
+                </div>
+                <div class="col-md-4">
+                    <img src="./imagenes/el-recuerdo-de-marnie-studio-ghibli-1220x686.jpeg.webp" alt="">
+                    <h1>El recuerdo de Marnie (2014)</h1>
+                    <p>¿De qué va?: Una joven enferma y llena de complejos llamada Anna es enviada una temporada a un tranquilo y precioso pueblo. Allí, conocerá a la que se convertirá en su primera gran amistad: Marnie.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="redes">
+        <p>Mail</p>
+        <link href='https://unpkg.com/css.gg@2.0.0/icons/css/mail.css' rel='stylesheet'><i class="gg-mail"></i>
+        <p>info@studioghiblimovies.com</p>
+    </div>
+
+    <footer>
+        <p>Página creada por Gianella A. Achetoni</p>
+        
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384- w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    
+</body>
+</html>
